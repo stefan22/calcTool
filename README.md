@@ -1,1 +1,1 @@
-calcTool
+calcTool with AngularJS
