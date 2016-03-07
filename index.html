@@ -48,7 +48,12 @@
 				<div>
 					<h4>Lumens</h4>
 					<p>Brightness <br>of bulb</p>
-					<select ng-model="current_lumens" ng-options="o as o for o in lumen_options">
+					<select>
+						<option value="375">375</options>
+						<option value="600" selected>600</options>
+						<option value="900">900</options>
+						<option value="1125">1125</options>
+						<option value="1600">1600</options>
 
 					</select>
 				</div>
