@@ -15,12 +15,21 @@
    		$scope.cfl_conversion = .0146;
    		$scope.led_conversion = .0125;
 
+
    		$scope.calculate = function() {
-   			alert('hey');
+   			
+			$scope.inc_wattage = ($scope.current_lumen * $scope.inc_conversion).toFixed(1); 
+			$scope.hal_wattage = ($scope.current_lumen * $scope.hal_conversion).toFixed(1);
+			$scope.cfl_wattage = ($scope.current_lumen * $scope.cfl_conversion).toFixed(1);
+			$scope.led_wattage = ($scope.current_lumen * $scope.led_conversion).toFixed(1);  			
+
+
    		}
 
+   		
    		$scope.calculate();
 
+   		
 
 
 
