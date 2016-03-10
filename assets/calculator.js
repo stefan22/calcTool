@@ -15,7 +15,11 @@
    		$scope.cfl_conversion = .0146;
    		$scope.led_conversion = .0125;
 
-   		
+   		$scope.calculate = function() {
+   			alert('hey');
+   		}
+
+   		$scope.calculate();
 
 
 
